@@ -2,118 +2,95 @@
 <html lang="en">
 <head>
 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 	<title>Lucy Welch - Development</title>
+	
+		<style>
+			* {font-family:courier;}
+	
+			img {
+					border: 5px solid #fffaf0;
+				}
+	
+			div.gallery {
+					margin: 3px;
+					border: 1px solid #fffaf0;
+				}
+
+			div.gallery:hover {
+					border: 1px solid #ffefd5;
+				}
+
+			div.gallery img {
+					width: 100%;
+					height: 40%;
+				}
+
+			div.desc {
+					padding: 15px;
+					text-align: center;
+				}
+
+			* {
+					box-sizing: border-box;
+				}
+
+			.responsive {
+					padding: 0 6px;
+					float: left;
+					width: 24.99999%;
+				}
+
+			@media only screen and (max-width: 700px) {
+			
+			.responsive {
+					width: 49.99999%;
+					margin: 6px 0;
+				}
+			}
+
+			@media only screen and (max-width: 500px) {
+			
+					.responsive {
+					width: 100%;
+				}
+			}
+
+			.clearfix:after {
+					content: "";
+					display: table;
+					clear: both;
+				}
+	
+	
+		</style>
+	
 	</head>
 	
-	<style>
-	* {font-family:courier;}
-	</style>
-	
-	<style>
-	img {
-		border: 5px solid #fffaf0;
-	}
-	</style>
-	
-	<style>
-div.gallery {
-	margin: 3px;
-	border: 1px solid #fffaf0;
-}
+<body style="background-color:papayawhip;">
 
-div.gallery:hover {
-  border: 1px solid #ffefd5;
-}
 
-div.gallery img {
-  width: 100%;
-  height: 40%;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
-	
-		<body style="background-color:papayawhip;">
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<div class="container-fluid">
+		<ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link"href="index.html">Portfolio</a></li>
+			<li class="nav-item"><a class="nav-link" href="development.html">Development</a></li>
+			<li class="nav-item"><a class="nav-link" href="links.html">Links</a></li>     
+		</ul>
+</div>
+</nav>
 		
 		<header>
+			
 			<div style="width:100%; background:floralwhite; text-align:center;">
 					<center> <h1 style="font-family:courier;"><u><b>Lucy Welch</b></u></h1></center>
+		
 		</header>
 		
-		<style>
-			
-		nav ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			background-color: floralwhite;
-		}
-
-		li {
-			float: left;
-			border-right: 1px solid #ffefd5;
-		}
-
-		li a {
-			display: block;
-			color: black;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-		}
-
-		li a:hover {
-			background-color: #ffefd5;
-		}
-		
-		a.active {
-			background-color: #ffefd5;
-			color: black;
-		}
-</style>
-</head>
-<body>
-
-		<nav><ul>
-			<li><a href="index.html">Portfolio</a></li>
-			<li><a class="active" href="development.html">Development</a></li>
-			<li><a href="links.html">Useful Links</a></li>
-		</ul></nav>
-
-</body>
+		<br>
 		
 		<center> <h2> <img src="./Profile Picture.png" alt="me" height="200" ></h2></center>
 		
@@ -149,7 +126,7 @@ div.desc {
     <a target="_blank" href="Process 3.png">
       <img src="Process 3.png" alt="Process 3" width="600" height="400">
     </a>
-    <div class="desc">3 - Here I added in a picture.</div>
+    <div class="desc">3 - Here I added in a profile picture.</div>
   </div>
 </div>
 
@@ -158,7 +135,7 @@ div.desc {
     <a target="_blank" href="Process 4.png">
       <img src="Process 4.png" alt="Process 4" width="600" height="400">
     </a>
-    <div class="desc">4 - Here I re-started.</div>
+    <div class="desc">4 - Here I re-started the whole web-page.</div>
   </div>
 </div>
 
@@ -167,7 +144,7 @@ div.desc {
     <a target="_blank" href="Process 5.png">
       <img src="Process 5.png" alt="Process 5" width="600" height="400">
     </a>
-    <div class="desc">5 - Here I re-added the picture.</div>
+    <div class="desc">5 - Here I re-added the profile picture.</div>
   </div>
 </div>
 
@@ -194,7 +171,7 @@ div.desc {
     <a target="_blank" href="Process 8.png">
       <img src="Process 8.png" alt="Process 8" width="600" height="400">
     </a>
-    <div class="desc">8 - Here I changed my font.</div>
+    <div class="desc">8 - Here I changed my font throughout.</div>
   </div>
 </div>
 
